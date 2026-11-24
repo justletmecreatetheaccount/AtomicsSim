@@ -1,0 +1,24 @@
+[project]
+name = "atomics"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "justletmecreatetheaccount", email = "vladdoniga11@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.5",
+    "scipy>=1.18.1",
+]
+
+[project.scripts]
+atomics = "atomics:main"
+
+[build-system]
+requires = ["uv_build>=0.13.8,<0.14.0"]
+build-backend = "uv_build"
+
+[tool.uv]
+package = true
