@@ -1,4 +1,5 @@
 from . import crossSection as cS
+from . import halfLife as hL
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -31,4 +32,6 @@ def main() -> None:
     ax.grid(True, which='both', alpha=0.3)
     plt.tight_layout()
     plt.show()
+    print(hL.halfLife("U235", "BetaMinus"))
+    print(hL.halfLife("U235", "Alpha"))
     print("Hello from atomics!")

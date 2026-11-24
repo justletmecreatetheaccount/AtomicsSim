@@ -1,0 +1,126 @@
+{
+  "format":"Endf_MF8_MT457-v0.1",
+  "now":"2026-11-24T12:40:00.467Z",
+  "program":"EndfSect457, by V.Zerkin, IAEA-NDS, ver.2022-08-19",
+  "id":"22215702"
+  ,"dataType":"Radioactive decay data"
+  ,"datTyp":"e6mt457"
+  ,"Library":"JEFF-4.0"
+  ,"EDATE":"EVAL-MAR08"
+  ,"AUTH": "CONVERSION OF ENSDF"
+  ,"HSUB1":"----JEFF-40"
+  ,"MAT":1755 ,"NSUB":"4"
+  ,"Nucleus":"Xe-135"
+  ,"MF":8 ,"MT":457
+  ,"ZA":54135 ,"AWR":133.748
+  ,"T12s":32904.0 ,"dT12s":72.0
+  ,"T12":9.14 ,"dT12":0.02 ,"uT12":"h"
+  ,"Ebeta":319.687 ,"dEbeta":12.5265 ,"uEbeta":"keV"
+  ,"Egamma":248.204 ,"dEgamma":7.53751 ,"uEgamma":"keV"
+  ,"Ealpha":0.0 ,"dEalpha":0.0 ,"uEalpha":"keV"
+  ,"Spin":1.5
+  ,"Parity":"plus"
+  ,"LISO":0
+  ,"LIS": 0
+  ,"nDecayModes":1
+  ,"nRadTypes":4
+  ,"DecayModes":[
+    {"i":1 ,"RTYP":"1" ,"txRTYP":"Beta-"
+     ,"DecayQ":1165.0, "dDecayQ":4.0 ,"uDecayQ":"keV"
+    }
+  ]
+  ,"RadTypes":[
+    {"i":1 ,"STYP":"0" ,"txSTYP":"Gamma"
+     ,"AveDecayEne":246.58, "dAveDecayEne":7.5373 ,"uAveDecayEne":"keV"
+     ,"DiscreteSpectrum": {
+        "Normalization":0.01 ,"dNormalization":0.0
+       ,"nPts":13 ,"PtsTyp":"line"
+       ,"PtsUnit": [ {"E":"keV"} ,{"dE":"keV"} ,{"RI":"no-dim"} ,{"dRI":"no-dim"} ]
+       ,"Pts": [
+	   {"i":1  ,"E":158.197  ,"dE":0.018     ,"RI":0.2889     ,"dRI":0.013811   ,"RTYP":"1" }
+	  ,{"i":2  ,"E":200.19   ,"dE":0.1       ,"RI":0.0117     ,"dRI":0.0045169  ,"RTYP":"1" }
+	  ,{"i":3  ,"E":249.794  ,"dE":0.015     ,"RI":90.0       ,"dRI":3.0        ,"RTYP":"1" ,"RICC":0.0737 ,"dRICC":0.002 ,"RICK":0.0623 ,"dRICK":0.00282601 ,"RICL":0.0091 ,"dRICL":0.00116579 }
+	  ,{"i":4  ,"E":358.39   ,"dE":0.03      ,"RI":0.2205     ,"dRI":0.010938   ,"RTYP":"1" ,"RICC":0.0265 ,"dRICC":0.0017 ,"RICK":0.0224 ,"dRICK":0.00203548 ,"RICL":0.00325 ,"dRICL":2.03746E-4 }
+	  ,{"i":5  ,"E":373.13   ,"dE":0.1       ,"RI":0.0153     ,"dRI":0.0027477  ,"RTYP":"1" }
+	  ,{"i":6  ,"E":407.99   ,"dE":0.02      ,"RI":0.3582     ,"dRI":0.016717   ,"RTYP":"1" }
+	  ,{"i":7  ,"E":454.2    ,"dE":0.2       ,"RI":0.0036     ,"dRI":7.2993E-4  ,"RTYP":"1" }
+	  ,{"i":8  ,"E":573.32   ,"dE":0.09      ,"RI":0.00477    ,"dRI":7.3735E-4  ,"RTYP":"1" }
+	  ,{"i":9  ,"E":608.185  ,"dE":0.015     ,"RI":2.898      ,"dRI":0.13203    ,"RTYP":"1" ,"RICC":0.0073 ,"dRICC":2.2E-4 ,"RICK":0.00629 ,"dRICK":3.3349E-4 ,"RICL":8.03E-4 ,"dRICL":3.90084E-5 }
+	  ,{"i":10 ,"E":654.432  ,"dE":0.016     ,"RI":0.045      ,"dRI":0.0023431  ,"RTYP":"1" }
+	  ,{"i":11 ,"E":731.52   ,"dE":0.02      ,"RI":0.0549     ,"dRI":0.0032617  ,"RTYP":"1" }
+	  ,{"i":12 ,"E":812.63   ,"dE":0.03      ,"RI":0.0702     ,"dRI":0.0029522  ,"RTYP":"1" }
+	  ,{"i":13 ,"E":1062.41  ,"dE":0.02      ,"RI":0.00405    ,"dRI":8.2117E-4  ,"RTYP":"1" }
+        ]
+       ,"Legend": [
+          {"RICC":{"any":"Total internal conversion coefficient"}}
+         ,{"RICL":{"any":"L-shell internal conversion coefficient"}}
+         ,{"RICK":{"any":"K-shell internal conversion coefficient"}}
+         ,{"RTYP":{"1":"Beta-"}}
+        ]
+      }
+    }
+   ,{"i":2 ,"STYP":"1" ,"txSTYP":"Beta-"
+     ,"AveDecayEne":304.72, "dAveDecayEne":12.505 ,"uAveDecayEne":"keV"
+     ,"DiscreteSpectrum": {
+        "Normalization":0.01 ,"dNormalization":0.0
+       ,"nPts":5 ,"PtsTyp":"endpoint"
+       ,"PtsUnit": [ {"E":"keV"} ,{"dE":"keV"} ,{"RI":"no-dim"} ,{"dRI":"no-dim"} ]
+       ,"Pts": [
+	   {"i":1  ,"E":102.579  ,"dE":4.0       ,"RI":0.123      ,"dRI":0.006      ,"RTYP":"1" ,"TYPE":"1" }
+	  ,{"i":2  ,"E":183.683  ,"dE":4.0       ,"RI":0.075      ,"dRI":0.005      ,"RTYP":"1" ,"TYPE":"1" }
+	  ,{"i":3  ,"E":556.809  ,"dE":4.0       ,"RI":3.11       ,"dRI":0.14       ,"RTYP":"1" ,"TYPE":"1" }
+	  ,{"i":4  ,"E":757.004  ,"dE":4.0       ,"RI":0.59       ,"dRI":0.03       ,"RTYP":"1" ,"TYPE":"1" }
+	  ,{"i":5  ,"E":915.199  ,"dE":4.0       ,"RI":96.0       ,"dRI":4.0        ,"RTYP":"1" ,"TYPE":"1" }
+        ]
+       ,"Legend": [
+          {"TYPE":{"1":"Allowed or super-allowed"}}
+         ,{"RTYP":{"1":"Beta-"}}
+        ]
+      }
+    }
+   ,{"i":3 ,"STYP":"8" ,"txSTYP":"disc. electrons"
+     ,"AveDecayEne":14.971, "dAveDecayEne":0.72753 ,"uAveDecayEne":"keV"
+     ,"DiscreteSpectrum": {
+        "Normalization":0.01 ,"dNormalization":0.0
+       ,"nPts":14 ,"PtsTyp":"line"
+       ,"PtsUnit": [ {"E":"keV"} ,{"dE":"keV"} ,{"RI":"no-dim"} ,{"dRI":"no-dim"} ]
+       ,"Pts": [
+	   {"i":1  ,"E":3.55     ,"dE":0.0       ,"RI":5.1913     ,"dRI":0.33538    ,"RTYP":"1" }
+	  ,{"i":2  ,"E":25.5     ,"dE":0.0       ,"RI":0.59117    ,"dRI":0.075253   ,"RTYP":"1" }
+	  ,{"i":3  ,"E":213.809  ,"dE":0.015     ,"RI":5.607      ,"dRI":0.31563    ,"RTYP":"1" }
+	  ,{"i":4  ,"E":244.08   ,"dE":0.015     ,"RI":0.819      ,"dRI":0.10841    ,"RTYP":"1" }
+	  ,{"i":5  ,"E":248.577  ,"dE":0.015     ,"RI":0.1692     ,"dRI":0.022624   ,"RTYP":"1" }
+	  ,{"i":6  ,"E":249.563  ,"dE":0.015     ,"RI":0.0351     ,"dRI":0.0047674  ,"RTYP":"1" }
+	  ,{"i":7  ,"E":322.405  ,"dE":0.03      ,"RI":0.0049392  ,"dRI":5.1134E-4  ,"RTYP":"1" }
+	  ,{"i":8  ,"E":352.676  ,"dE":0.03      ,"RI":7.1663E-4  ,"dRI":5.7288E-5  ,"RTYP":"1" }
+	  ,{"i":9  ,"E":357.173  ,"dE":0.03      ,"RI":1.4774E-4  ,"dRI":1.3068E-5  ,"RTYP":"1" }
+	  ,{"i":10 ,"E":358.159  ,"dE":0.03      ,"RI":3.1091E-5  ,"dRI":2.3729E-6  ,"RTYP":"1" }
+	  ,{"i":11 ,"E":572.2    ,"dE":0.015     ,"RI":0.018228   ,"dRI":0.0012742  ,"RTYP":"1" }
+	  ,{"i":12 ,"E":602.471  ,"dE":0.015     ,"RI":0.0023271  ,"dRI":1.5498E-4  ,"RTYP":"1" }
+	  ,{"i":13 ,"E":606.968  ,"dE":0.015     ,"RI":4.7527E-4  ,"dRI":3.1777E-5  ,"RTYP":"1" }
+	  ,{"i":14 ,"E":607.954  ,"dE":0.015     ,"RI":1.0027E-4  ,"dRI":6.0597E-6  ,"RTYP":"1" }
+        ]
+       ,"Legend": [
+          {"RTYP":{"1":"Beta-"}}
+        ]
+      }
+    }
+   ,{"i":4 ,"STYP":"9" ,"txSTYP":"X-rays"
+     ,"AveDecayEne":1.6216, "dAveDecayEne":0.058553 ,"uAveDecayEne":"keV"
+     ,"DiscreteSpectrum": {
+        "Normalization":0.01 ,"dNormalization":0.0
+       ,"nPts":4 ,"PtsTyp":"line"
+       ,"PtsUnit": [ {"E":"keV"} ,{"dE":"keV"} ,{"RI":"no-dim"} ,{"dRI":"no-dim"} ]
+       ,"Pts": [
+	   {"i":1  ,"E":4.29     ,"dE":0.0       ,"RI":0.64162    ,"dRI":0.17852    ,"RTYP":"1" }
+	  ,{"i":2  ,"E":30.6251  ,"dE":3.0E-4    ,"RI":1.433      ,"dRI":0.084948   ,"RTYP":"1" }
+	  ,{"i":3  ,"E":30.9728  ,"dE":3.0E-4    ,"RI":2.6537     ,"dRI":0.15451    ,"RTYP":"1" }
+	  ,{"i":4  ,"E":35.0     ,"dE":0.0       ,"RI":0.95222    ,"dRI":0.057335   ,"RTYP":"1" }
+        ]
+       ,"Legend": [
+          {"RTYP":{"1":"Beta-"}}
+        ]
+      }
+    }
+  ]
+}

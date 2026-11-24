@@ -1,0 +1,181 @@
+{
+  "format":"Endf_MF8_MT457-v0.1",
+  "now":"2026-11-24T12:45:24.257Z",
+  "program":"EndfSect457, by V.Zerkin, IAEA-NDS, ver.2022-08-19",
+  "id":"22212113"
+  ,"dataType":"Radioactive decay data"
+  ,"datTyp":"e6mt457"
+  ,"Library":"JEFF-4.0"
+  ,"EDATE":"EVAL-JAN00"
+  ,"AUTH": "A.L. NICHOLS"
+  ,"HSUB1":"----JEFF-40"
+  ,"MAT":3546 ,"NSUB":"4"
+  ,"Nucleus":"U-238"
+  ,"MF":8 ,"MT":457
+  ,"ZA":92238 ,"AWR":236.006
+  ,"T12s":1.40996E17 ,"dT12s":9.46708E13
+  ,"T12":4.468E9 ,"dT12":3000000.0 ,"uT12":"a"
+  ,"Ebeta":10.2083 ,"dEbeta":0.851158 ,"uEbeta":"keV"
+  ,"Egamma":1.10017 ,"dEgamma":0.104433 ,"uEgamma":"keV"
+  ,"Ealpha":4258.77 ,"dEalpha":29.639 ,"uEalpha":"keV"
+  ,"Spin":0.0
+  ,"Parity":"plus"
+  ,"LISO":0
+  ,"LIS": 0
+  ,"nDecayModes":2
+  ,"nRadTypes":6
+  ,"DecayModes":[
+    {"i":1 ,"RTYP":"4" ,"txRTYP":"Alpha"
+     ,"DecayQ":4270.0, "dDecayQ":3.0 ,"uDecayQ":"keV"
+     ,"Branching":0.999999 ,"dBranching":1.0E-8
+    }
+   ,{"i":2 ,"RTYP":"6" ,"txRTYP":"SF"
+     ,"DecayQ":173600.0, "dDecayQ":3400.0 ,"uDecayQ":"keV"
+     ,"Branching":5.46E-7 ,"dBranching":1.0E-8
+    }
+  ]
+  ,"RadTypes":[
+    {"i":1 ,"STYP":"0" ,"txSTYP":"Gamma"
+     ,"AveDecayEne":0.056944, "dAveDecayEne":0.0047944 ,"uAveDecayEne":"keV"
+     ,"DiscreteSpectrum": {
+        "Normalization":6.8E-4 ,"dNormalization":0.0
+       ,"nPts":2 ,"PtsTyp":"line"
+       ,"PtsUnit": [ {"E":"keV"} ,{"dE":"keV"} ,{"RI":"no-dim"} ,{"dRI":"no-dim"} ]
+       ,"Pts": [
+	   {"i":1  ,"E":49.55    ,"dE":0.06      ,"RI":1.0        ,"dRI":0.044118   ,"RTYP":"4" ,"RICC":329.4 ,"dRICC":6.588 ,"RICL":240.6 ,"dRICL":4.812 }
+	  ,{"i":2  ,"E":113.5    ,"dE":0.2       ,"RI":0.25       ,"dRI":0.058823   ,"RTYP":"4" ,"RICC":6.63 ,"dRICC":0.13923 ,"RICL":4.67 ,"dRICL":0.09807 }
+        ]
+       ,"Legend": [
+          {"RICC":{"any":"Total internal conversion coefficient"}}
+         ,{"RICL":{"any":"L-shell internal conversion coefficient"}}
+         ,{"RTYP":{"4":"Alpha"}}
+        ]
+      }
+     ,"ContinuousSpectrum": {
+        "Normalization":4.41386E-6 ,"dNormalization":4.48514E-7
+       ,"nPts":15 ,"lPts":2
+       ,"PtsHdr":  [ "E"   ,"RP"     ]
+       ,"PtsUnit": [ {"E":"keV"} ,{"RP":"no-dim"} ]
+       ,"Pts": [
+	   [ 0.0        ,2.8571E-7   ]
+	  ,[ 140.0      ,9.2468E-7   ]
+	  ,[ 300.0      ,1.0211E-6   ]
+	  ,[ 500.0      ,8.828E-7    ]
+	  ,[ 700.0      ,4.9733E-7   ]
+	  ,[ 1000.0     ,2.5949E-7   ]
+	  ,[ 1500.0     ,1.2013E-7   ]
+	  ,[ 2000.0     ,7.232E-8    ]
+	  ,[ 2500.0     ,4.5595E-8   ]
+	  ,[ 3000.0     ,2.1049E-8   ]
+	  ,[ 4000.0     ,7.927E-9    ]
+	  ,[ 5000.0     ,2.9552E-9   ]
+	  ,[ 6000.0     ,1.1622E-9   ]
+	  ,[ 7000.0     ,7.0587E-11  ]
+	  ,[ 10000.0    ,0.0         ]
+        ]
+      }
+    }
+   ,{"i":2 ,"STYP":"4" ,"txSTYP":"Alpha"
+     ,"AveDecayEne":4258.7, "dAveDecayEne":29.643 ,"uAveDecayEne":"keV"
+     ,"DiscreteSpectrum": {
+        "Normalization":1.0 ,"dNormalization":0.0
+       ,"nPts":3 ,"PtsTyp":"line"
+       ,"PtsUnit": [ {"E":"keV"} ,{"dE":"keV"} ,{"RI":"no-dim"} ,{"dRI":"no-dim"} ]
+       ,"Pts": [
+	   {"i":1  ,"E":4038.0   ,"dE":3.0       ,"RI":0.0013     ,"dRI":3.0E-4     ,"RTYP":"4" }
+	  ,{"i":2  ,"E":4150.0   ,"dE":3.0       ,"RI":0.2233     ,"dRI":0.005      ,"RTYP":"4" }
+	  ,{"i":3  ,"E":4198.0   ,"dE":3.0       ,"RI":0.7754     ,"dRI":0.005      ,"RTYP":"4" }
+        ]
+       ,"Legend": [
+          {"RTYP":{"4":"Alpha"}}
+        ]
+      }
+    }
+   ,{"i":3 ,"STYP":"5" ,"txSTYP":"n"
+     ,"AveDecayEne":0.0020431, "dAveDecayEne":7.0763E-5 ,"uAveDecayEne":"keV"
+     ,"ContinuousSpectrum": {
+        "Normalization":1.092E-6 ,"dNormalization":2.96139E-8
+       ,"nPts":38 ,"lPts":2
+       ,"PtsHdr":  [ "E"   ,"RP"     ]
+       ,"PtsUnit": [ {"E":"keV"} ,{"RP":"no-dim"} ]
+       ,"Pts": [
+	   [ 1.24735E-5 ,9.0723E-11  ]
+	  ,[ 1.24735E-4 ,2.8689E-10  ]
+	  ,[ 0.00124735 ,9.0724E-10  ]
+	  ,[ 0.0124735  ,2.8689E-9   ]
+	  ,[ 0.124735   ,9.0715E-9   ]
+	  ,[ 1.24735    ,2.8661E-8   ]
+	  ,[ 2.4947     ,4.0492E-8   ]
+	  ,[ 3.74205    ,4.9542E-8   ]
+	  ,[ 4.98941    ,5.715E-8    ]
+	  ,[ 6.23675    ,6.3831E-8   ]
+	  ,[ 9.35513    ,7.7982E-8   ]
+	  ,[ 12.4735    ,8.9821E-8   ]
+	  ,[ 18.7103    ,1.0946E-7   ]
+	  ,[ 37.4206    ,1.5249E-7   ]
+	  ,[ 62.3676    ,1.9297E-7   ]
+	  ,[ 124.735    ,2.5959E-7   ]
+	  ,[ 249.47     ,3.3218E-7   ]
+	  ,[ 374.205    ,3.6812E-7   ]
+	  ,[ 498.941    ,3.8462E-7   ]
+	  ,[ 623.676    ,3.891E-7    ]
+	  ,[ 748.411    ,3.8567E-7   ]
+	  ,[ 873.146    ,3.7693E-7   ]
+	  ,[ 997.881    ,3.6461E-7   ]
+	  ,[ 1122.62    ,3.4993E-7   ]
+	  ,[ 1247.35    ,3.3375E-7   ]
+	  ,[ 1559.19    ,2.9061E-7   ]
+	  ,[ 1871.03    ,2.4793E-7   ]
+	  ,[ 2182.87    ,2.0856E-7   ]
+	  ,[ 2494.7     ,1.7364E-7   ]
+	  ,[ 3118.38    ,1.1775E-7   ]
+	  ,[ 3742.05    ,7.8234E-8   ]
+	  ,[ 4989.41    ,3.3233E-8   ]
+	  ,[ 6236.76    ,1.3669E-8   ]
+	  ,[ 7484.11    ,5.5084E-9   ]
+	  ,[ 8731.46    ,2.1888E-9   ]
+	  ,[ 12473.5    ,1.3025E-10  ]
+	  ,[ 18710.3    ,1.0748E-12  ]
+	  ,[ 24947.0    ,8.3627E-15  ]
+        ]
+      }
+    }
+   ,{"i":4 ,"STYP":"6" ,"txSTYP":"SF"
+     ,"AveDecayEne":0.088922, "dAveDecayEne":0.0024984 ,"uAveDecayEne":"keV"
+    }
+   ,{"i":5 ,"STYP":"8" ,"txSTYP":"disc. electrons"
+     ,"AveDecayEne":10.208, "dAveDecayEne":1.0208 ,"uAveDecayEne":"keV"
+     ,"DiscreteSpectrum": {
+        "Normalization":1.0 ,"dNormalization":0.0
+       ,"nPts":6 ,"PtsTyp":"line"
+       ,"PtsUnit": [ {"E":"keV"} ,{"dE":"keV"} ,{"RI":"no-dim"} ,{"dRI":"no-dim"} ]
+       ,"Pts": [
+	   {"i":1  ,"E":4.176    ,"dE":0.209     ,"RI":0.25184    ,"dRI":0.025184   ,"RTYP":"4" }
+	  ,{"i":2  ,"E":9.478    ,"dE":0.474     ,"RI":0.091079   ,"dRI":0.0091079  ,"RTYP":"4" }
+	  ,{"i":3  ,"E":33.2497  ,"dE":1.66      ,"RI":0.16361    ,"dRI":0.016361   ,"RTYP":"4" }
+	  ,{"i":4  ,"E":45.374   ,"dE":2.27      ,"RI":0.060384   ,"dRI":0.0060384  ,"RTYP":"4" }
+	  ,{"i":5  ,"E":97.1997  ,"dE":4.86      ,"RI":7.939E-4   ,"dRI":7.939E-5   ,"RTYP":"4" }
+	  ,{"i":6  ,"E":109.324  ,"dE":5.47      ,"RI":3.332E-4   ,"dRI":3.332E-5   ,"RTYP":"4" }
+        ]
+       ,"Legend": [
+          {"RTYP":{"4":"Alpha"}}
+        ]
+      }
+    }
+   ,{"i":6 ,"STYP":"9" ,"txSTYP":"X-rays"
+     ,"AveDecayEne":1.0432, "dAveDecayEne":0.10432 ,"uAveDecayEne":"keV"
+     ,"DiscreteSpectrum": {
+        "Normalization":1.0 ,"dNormalization":0.0
+       ,"nPts":2 ,"PtsTyp":"line"
+       ,"PtsUnit": [ {"E":"keV"} ,{"dE":"keV"} ,{"RI":"no-dim"} ,{"dRI":"no-dim"} ]
+       ,"Pts": [
+	   {"i":1  ,"E":4.176    ,"dE":0.0835    ,"RI":0.014376   ,"dRI":0.0014376  ,"RTYP":"4" }
+	  ,{"i":2  ,"E":13.409   ,"dE":0.268     ,"RI":0.073323   ,"dRI":0.0073323  ,"RTYP":"4" }
+        ]
+       ,"Legend": [
+          {"RTYP":{"4":"Alpha"}}
+        ]
+      }
+    }
+  ]
+}

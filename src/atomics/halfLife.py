@@ -1,3 +1,5 @@
+import json
+
 def halfLife(X, Transfo):
     """
     Return the half life of a nuclide or nucleon for a specific transformation
@@ -11,9 +13,33 @@ def halfLife(X, Transfo):
         name of the considered transformation, should be one of the following in the list
         ['Alpha', 'BetaMinus', 'BetaPlus', 'Gamma']
     :return: the half life of X for the transformation Transfo in seconds
+        if the nuclide does not decay with that transformation will return negative halflife
     """
 
     # Your work : here
+    file_name = format("data/" + X + "_Decay.json")
+    with open(file_name) as f:
+        data = json.load(f)
+
+    modes = data["DecayModes"]
+    Transfo_to_RTYP = {
+        "BetaMinus" : "1",
+        "BetaPlus" : "2",
+        "Gamma" : "3",
+        "Alpha" : "4",
+    }
+
+    present = False
+
+    for mode in modes:
+        if Transfo_to_RTYP[Transfo] == mode["RTYP"]:
+            present = True
+
+    if present:
+        hl = data["T12s"]
+    else:
+        hl = -1
+            
 
     # ==================================  Check arguments  ==================================
     #  Check that the nucleon/nuclide asked, and that the associated transformation exists in the database
